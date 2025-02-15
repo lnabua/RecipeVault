@@ -1,4 +1,5 @@
 import { Container, Typography } from '@mui/material';
+import RecipeList from '../components/RecipeList';
 
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
         <Typography variant="h4" gutterBottom>
           My Recipes
         </Typography>
+        <RecipeList />
       </Container>
     );
 };
